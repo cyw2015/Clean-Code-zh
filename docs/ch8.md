@@ -134,7 +134,7 @@ public void testLogAddAppender() {
 
 This time we find that the Appender has no output stream. Odd—it seems logical that it’d have one. After a little help from Google, we try the following:
 
-> 比如，我们想使用 apache log4j 包来代替自定义的日志代码。我们下载了 log4j，打开介绍文档页。无需看太久，就编写了第一个测试用例，希望它能向控制台输出 hello 字样。
+> 这一次我们发现 Appender 没有输出流。很奇怪——它似乎应该有一个输出流。在经过一番谷歌搜索后，我们尝试了以下操作：
 
 ```java
 @Test
